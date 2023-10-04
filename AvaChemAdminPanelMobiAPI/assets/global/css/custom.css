@@ -1,0 +1,98 @@
+﻿.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.select2.select2-container {
+    width: 100% !important;
+}
+
+.select2 .select2-selection {
+    height: 34px !important;
+    border: 1px solid #c2cad8;
+}
+
+.select2 .select2-selection__rendered {
+    line-height: 32px !important;
+    padding: 0 12px !important;
+}
+
+.select2 .select2-selection__arrow {
+    height: 32px !important;
+}
+
+.select2-search__field {
+    outline: none;
+}
+
+.select2-results__option.select2-results__option--selectable {
+    padding: 6px 12px !important;
+}
+
+input[type^="date"], input[type^="time"] {
+    height: 34px;
+    border: 1px solid #c2cad8;
+    padding-left: 12px;
+    outline: none;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.txt-error {
+    margin-left: 12px;
+    font-size: 1.35rem;
+    color: #E83215;
+}
+
+.swal2-container, .swal2Container {
+    z-index: 9999 !important;
+}
+
+.swal2-popup, .swal2Popup {
+    width: 51rem !important;
+    border-radius: 5px !important;
+}
+
+.swal2-title, .swal2Title {
+    font-size: 3rem !important;
+}
+
+.swal2-icon, .swal2Icon {
+    border-radius: 50% !important;
+}
+
+.swal2-confirm, .swal2-deny, .swal2-cancel, .swal2Button {
+    font-size: 16px !important;
+    border-radius: .25em !important;
+}
+
+.swal2-html-container, .swal2Text {
+    font-size: 18px !important;
+}
+
+
+.checkbox input[type=checkbox] {
+    margin-left: -20px;
+}
+
+input[readonly], input[disabled] {
+    background-color: #eef1f5;
+    opacity: 1;
+}
